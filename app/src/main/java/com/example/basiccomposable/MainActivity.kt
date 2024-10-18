@@ -52,7 +52,10 @@ fun BasicComposable
     ){
         Text(
             text = "Indonesia",
-            modifier = ijam
+            modifier = ijam,
+            fontSize = 70.sp,
+            color = Color.Red,
+            fontWeight = FontWeight.Bold
         )
 
     }
