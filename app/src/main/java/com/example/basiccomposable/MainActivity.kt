@@ -65,6 +65,10 @@ fun BasicComposable
                 color = Color.Blue
             )
         )
+        Image(
+            painter = painterResource(id = R.drawable.fifaaa),
+            contentDescription = null
+        )
 
     }
 
