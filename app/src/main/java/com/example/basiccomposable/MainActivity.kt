@@ -42,7 +42,9 @@ class MainActivity : ComponentActivity() {
 }
 @Preview(showBackground = true)
 @Composable
-
+fun BasicComposable
+            ( ijam: Modifier = Modifier) {
+}
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
