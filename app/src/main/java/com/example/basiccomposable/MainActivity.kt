@@ -71,7 +71,11 @@ fun BasicComposable
             modifier = Modifier.size(200.dp)
         )
         Text(
-            text = "Nama"
+            text = "Nama",
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontStyle = FontStyle.Italic
+            )
         )
 
     }
