@@ -85,6 +85,9 @@ fun BasicComposable
                 color = Color.Red
             )
         )
+        Text(
+            text = "20220140018"
+        )
     }
 
 }
