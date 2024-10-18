@@ -91,6 +91,10 @@ fun BasicComposable
                 fontSize = 20.sp
             )
         )
+        Image(
+            painter = painterResource(id = R.drawable.ijam),
+            contentDescription = null
+        )
     }
 
 }
