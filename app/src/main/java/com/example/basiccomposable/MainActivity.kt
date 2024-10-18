@@ -86,7 +86,10 @@ fun BasicComposable
             )
         )
         Text(
-            text = "20220140018"
+            text = "20220140018",
+            style = TextStyle(
+                fontSize = 20.sp
+            )
         )
     }
 
