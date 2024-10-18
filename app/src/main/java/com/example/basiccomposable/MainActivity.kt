@@ -50,6 +50,10 @@ fun BasicComposable
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
+        Text(
+            text = "Indonesia",
+            modifier = ijam
+        )
 
     }
 
