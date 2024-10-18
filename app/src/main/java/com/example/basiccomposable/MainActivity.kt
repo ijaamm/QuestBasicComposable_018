@@ -70,6 +70,9 @@ fun BasicComposable
             contentDescription = null,
             modifier = Modifier.size(200.dp)
         )
+        Text(
+            text = "Nama"
+        )
 
     }
 
