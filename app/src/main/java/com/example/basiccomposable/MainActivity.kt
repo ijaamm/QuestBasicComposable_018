@@ -58,7 +58,12 @@ fun BasicComposable
             fontWeight = FontWeight.Bold
         )
         Text(
-            text = "Versus"
+            text = "Versus",
+            style = TextStyle(
+                fontSize = 40.sp,
+                fontStyle = FontStyle.Italic,
+                color = Color.Blue
+            )
         )
 
     }
