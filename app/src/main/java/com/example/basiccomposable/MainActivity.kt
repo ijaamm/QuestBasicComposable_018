@@ -77,7 +77,9 @@ fun BasicComposable
                 fontStyle = FontStyle.Italic
             )
         )
-
+        Text(
+            text = "ilzam roin musyafa"
+        )
     }
 
 }
