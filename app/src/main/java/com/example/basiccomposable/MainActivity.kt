@@ -57,6 +57,9 @@ fun BasicComposable
             color = Color.Red,
             fontWeight = FontWeight.Bold
         )
+        Text(
+            text = "Versus"
+        )
 
     }
 
