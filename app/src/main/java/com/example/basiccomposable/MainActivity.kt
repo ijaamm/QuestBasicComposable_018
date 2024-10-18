@@ -93,7 +93,8 @@ fun BasicComposable
         )
         Image(
             painter = painterResource(id = R.drawable.ijam),
-            contentDescription = null
+            contentDescription = null,
+            modifier = Modifier.size(300.dp)
         )
     }
 
