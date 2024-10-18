@@ -78,7 +78,12 @@ fun BasicComposable
             )
         )
         Text(
-            text = "ilzam roin musyafa"
+            text = "ilzam roin musyafa",
+            style = TextStyle(
+                fontSize = 25.sp,
+                fontStyle = FontStyle.Italic,
+                color = Color.Red
+            )
         )
     }
 
