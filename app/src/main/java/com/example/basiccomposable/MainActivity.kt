@@ -67,7 +67,8 @@ fun BasicComposable
         )
         Image(
             painter = painterResource(id = R.drawable.fifaaa),
-            contentDescription = null
+            contentDescription = null,
+            modifier = Modifier.size(200.dp)
         )
 
     }
